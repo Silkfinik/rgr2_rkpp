@@ -1,4 +1,4 @@
-#include "funcs.cpp"
+#include "../src/funcs.cpp"
 
 int main() {
   KPolynomial a(4);

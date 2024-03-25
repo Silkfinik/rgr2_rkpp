@@ -1,12 +1,12 @@
 [
 {
   "directory": "/home/silkfinik/VS Code/rgr2/build",
-  "command": "/usr/bin/clang++ -I\"/home/silkfinik/VS Code/rgr2/include\" -g -std=gnu++17 -o CMakeFiles/animals.dir/src/KPolynomial.cpp.o -c \"/home/silkfinik/VS Code/rgr2/src/KPolynomial.cpp\"",
-  "file": "/home/silkfinik/VS Code/rgr2/src/KPolynomial.cpp"
+  "command": "/usr/bin/clang++ -I\"/home/silkfinik/VS Code/rgr2/include\" -g -std=gnu++17 -o CMakeFiles/animals.dir/main.cpp.o -c \"/home/silkfinik/VS Code/rgr2/main.cpp\"",
+  "file": "/home/silkfinik/VS Code/rgr2/main.cpp"
 },
 {
   "directory": "/home/silkfinik/VS Code/rgr2/build",
-  "command": "/usr/bin/clang++ -I\"/home/silkfinik/VS Code/rgr2/include\" -g -std=gnu++17 -o CMakeFiles/animals.dir/src/main.cpp.o -c \"/home/silkfinik/VS Code/rgr2/src/main.cpp\"",
-  "file": "/home/silkfinik/VS Code/rgr2/src/main.cpp"
+  "command": "/usr/bin/clang++ -I\"/home/silkfinik/VS Code/rgr2/include\" -g -std=gnu++17 -o CMakeFiles/animals.dir/src/KPolynomial.cpp.o -c \"/home/silkfinik/VS Code/rgr2/src/KPolynomial.cpp\"",
+  "file": "/home/silkfinik/VS Code/rgr2/src/KPolynomial.cpp"
 }
 ]

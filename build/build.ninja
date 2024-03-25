@@ -49,15 +49,15 @@ cmake_ninja_workdir = /home/silkfinik/VS$ Code/rgr2/build/
 
 build cmake_object_order_depends_target_animals: phony || CMakeFiles/animals.dir
 
-build CMakeFiles/animals.dir/src/KPolynomial.cpp.o: CXX_COMPILER__animals_Debug /home/silkfinik/VS$ Code/rgr2/src/KPolynomial.cpp || cmake_object_order_depends_target_animals
-  DEP_FILE = CMakeFiles/animals.dir/src/KPolynomial.cpp.o.d
+build CMakeFiles/animals.dir/main.cpp.o: CXX_COMPILER__animals_Debug /home/silkfinik/VS$ Code/rgr2/main.cpp || cmake_object_order_depends_target_animals
+  DEP_FILE = CMakeFiles/animals.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -I"/home/silkfinik/VS Code/rgr2/include"
   OBJECT_DIR = CMakeFiles/animals.dir
-  OBJECT_FILE_DIR = CMakeFiles/animals.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/animals.dir
 
-build CMakeFiles/animals.dir/src/main.cpp.o: CXX_COMPILER__animals_Debug /home/silkfinik/VS$ Code/rgr2/src/main.cpp || cmake_object_order_depends_target_animals
-  DEP_FILE = CMakeFiles/animals.dir/src/main.cpp.o.d
+build CMakeFiles/animals.dir/src/KPolynomial.cpp.o: CXX_COMPILER__animals_Debug /home/silkfinik/VS$ Code/rgr2/src/KPolynomial.cpp || cmake_object_order_depends_target_animals
+  DEP_FILE = CMakeFiles/animals.dir/src/KPolynomial.cpp.o.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -I"/home/silkfinik/VS Code/rgr2/include"
   OBJECT_DIR = CMakeFiles/animals.dir
@@ -71,7 +71,7 @@ build CMakeFiles/animals.dir/src/main.cpp.o: CXX_COMPILER__animals_Debug /home/s
 #############################################
 # Link the executable animals
 
-build animals: CXX_EXECUTABLE_LINKER__animals_Debug CMakeFiles/animals.dir/src/KPolynomial.cpp.o CMakeFiles/animals.dir/src/main.cpp.o
+build animals: CXX_EXECUTABLE_LINKER__animals_Debug CMakeFiles/animals.dir/main.cpp.o CMakeFiles/animals.dir/src/KPolynomial.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/animals.dir
   POST_BUILD = :
