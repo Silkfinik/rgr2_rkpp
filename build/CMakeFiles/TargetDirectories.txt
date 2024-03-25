@@ -1,0 +1,3 @@
+/home/silkfinik/VS Code/rgr2/build/CMakeFiles/animals.dir
+/home/silkfinik/VS Code/rgr2/build/CMakeFiles/edit_cache.dir
+/home/silkfinik/VS Code/rgr2/build/CMakeFiles/rebuild_cache.dir

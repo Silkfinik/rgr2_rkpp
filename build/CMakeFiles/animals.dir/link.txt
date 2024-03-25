@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g CMakeFiles/animals.dir/src/KPolynomial.cpp.o CMakeFiles/animals.dir/src/main.cpp.o -o animals 
